@@ -10,7 +10,7 @@ Two files:
 
 ### usage: 
 
-get_details.py '[connection_id]' or  '[connection_name]'  --cert (optional) --full (optional)
+get_details.py [connection_id] or  [connection_name]  --cert (optional) --full (optional)
 
 - If connection_id is know, it is usually best to use that. 
 - Connection_name can be used, the script will check the lookup_file.txt to find the connection_id which is required by the Auth0 API. 
